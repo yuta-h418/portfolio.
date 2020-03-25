@@ -1,0 +1,302 @@
+@charset "UTF-8";
+body {
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+}
+
+#wrapper {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  z-index: 998;
+  background-color: white;
+  padding: 0;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.head_list {
+  width: 700px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 10px auto;
+  padding: 0 0;
+}
+
+.head_list .item {
+  width: 100px;
+  height: 80px;
+  margin: 0 20px 0 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.head_list .item .img_1 {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.head_list .item p {
+  width: 100px;
+  height: 30px;
+  font-size: 21px;
+  margin: 0 0 0 0;
+  text-align: center;
+}
+
+.main_text {
+  width: 100%;
+  height: auto;
+  margin-top: 180px;
+  text-align: center;
+}
+
+.main_text .st_1 {
+  font-size: 30px;
+  font-family: 'Arial Black',sans-serif;
+  margin: 50px 0 50px 0;
+  letter-spacing: 0.33em;
+}
+
+.studio {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0000;
+}
+
+.studio p {
+  font-size: 40px;
+}
+
+.studio .st_img {
+  width: 40px;
+  height: 40px;
+  margin: 0 20px 0 0;
+}
+
+.topics {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0000;
+}
+
+.topics p {
+  font-size: 40px;
+}
+
+.topics .tp_img {
+  width: 40px;
+  height: 40px;
+  margin: 0 20px 0 0;
+}
+
+.tp_text {
+  text-align: center;
+}
+
+.tp_text h3 {
+  font-size: 30px;
+  margin: 0 0 20px 0;
+}
+
+.profile {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0000;
+  margin-top: 50px;
+}
+
+.profile p {
+  font-size: 40px;
+}
+
+.profile .pr_img {
+  width: 50px;
+  height: 50px;
+  margin: 0 40px 0 0;
+}
+
+.pro_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pro_text .pro_inner_2 {
+  margin: 0 0 0 130px;
+}
+
+.pro_text h4 {
+  margin: 0;
+}
+
+.mn_contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0000;
+  margin-top: 50px;
+}
+
+.contact p {
+  font-size: 40px;
+}
+
+.contact .cnt_img {
+  width: 40px;
+  height: 40px;
+  margin: 0 20px 0 0;
+}
+
+.contact .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.table {
+  border: solid 1px #cccccc;
+  margin: 0 auto;
+}
+
+.table th {
+  border: solid 1px #cccccc;
+  background-color: #cccccc;
+  text-align: left;
+  width: 30%;
+}
+
+.table td {
+  border: solid 1px #cccccc;
+  background-color: #cccccc;
+  width: 60%;
+}
+
+.table #comment {
+  width: 250px;
+  height: 150px;
+}
+
+.table .form_text td {
+  width: 300px;
+  height: 100px;
+  margin: 10px 0 10px 10px;
+}
+
+.table .form_text td td {
+  width: 100vw;
+  height: auto;
+  margin: 0;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.column_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.column_1_1 {
+  width: 90%;
+  padding: 0.5em 1em;
+  margin: 2em 0.15em;
+  color: #333333;
+  background: white;
+  border-top: solid 3px #000;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.column_1_1 :hover {
+  opacity: 0.7;
+}
+
+.column_1_1 .img_main {
+  width: 385px;
+  height: 200px;
+  text-align: center;
+}
+
+.column_1_1 .marks {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 0 10px;
+  text-align: left;
+}
+
+.column_1_1 h2 {
+  font-size: 17px;
+  text-align: left;
+}
+/*# sourceMappingURL=portfolio.css.map */
